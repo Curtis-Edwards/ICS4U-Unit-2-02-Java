@@ -27,7 +27,7 @@ final class Main {
     * @param args No args will be used
     */
     public static void main(String[] args) {
-        final CurtisStack<String> fruits = new CurtisStack<>();
+        final CurtisStack fruits = new CurtisStack();
         fruits.push("apple");
         fruits.push("banana");
         fruits.push("cherry");
@@ -35,7 +35,7 @@ final class Main {
         System.out.println("popped: " + fruits.popItem());
         System.out.println("fruits: " + fruits.showStack());
 
-        final CurtisStack<String> colours = new CurtisStack<>();
+        final CurtisStack colours = new CurtisStack();
         colours.push("red");
         colours.push("green");
         colours.push("blue");
@@ -44,7 +44,7 @@ final class Main {
         System.out.println("popped: " + colours.popItem());
         System.out.println("colours: " + colours.showStack());
 
-        final CurtisStack<String> shapes = new CurtisStack<>();
+        final CurtisStack shapes = new CurtisStack();
         shapes.push("square");
         shapes.push("triangle");
         shapes.push("circle");
