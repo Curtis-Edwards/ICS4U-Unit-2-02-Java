@@ -56,7 +56,7 @@ public class CurtisStack {
     * @return the popped string
     */
     public Object popItem() {
-        Object poppedItem;
+        final Object poppedItem;
         if (!stackAsList.isEmpty()) {
             poppedItem = stackAsList.remove(stackAsList.size() - 1);
         } else {
