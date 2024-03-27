@@ -17,7 +17,7 @@ final class Main {
     *
     * @throws IllegalStateException if instantiation is attempted
     */
-    private Statistics() {
+    private Main() {
         throw new IllegalStateException("Cannot be instantiated");
     }
 
