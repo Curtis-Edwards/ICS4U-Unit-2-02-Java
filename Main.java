@@ -32,7 +32,7 @@ final class Main {
         final String popped = "popped: ";
         final String colours = "colours: ";
         final String shapes = "shapes: ";
-        
+
         final CurtisStack fruits = new CurtisStack();
         fruits.push("apple");
         fruits.push("banana");
