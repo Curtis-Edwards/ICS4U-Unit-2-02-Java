@@ -11,12 +11,10 @@ import java.util.List;
 
 /**
 * The CurtisStack() class.
-*
-* @param <T> as the type parameter
 */
 public class CurtisStack {
     /**
-    * Declares a private instance variable
+    * Declares a private instance variable.
     */
     private List<Object> stackAsList;
 
@@ -52,11 +50,11 @@ public class CurtisStack {
         return values.toString();
     }
 
-  /**
-     * This method pops a string from the stack.
-     *
-     * @return the popped string
-     */
+    /**
+    * This method pops a string from the stack.
+    *
+    * @return the popped string
+    */
     public Object popItem() {
         Object poppedItem;
         if (!stackAsList.isEmpty()) {
