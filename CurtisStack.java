@@ -14,11 +14,11 @@ import java.util.List;
 *
 * @param <T> as the type parameter
 */
-public class CurtisStack<T> {
+public class CurtisStack {
     /**
     * Declares a private instance variable
     */
-    private List<T> stackAsList;
+    private List<Object> stackAsList;
 
     /**
     * The constructor().
@@ -32,7 +32,7 @@ public class CurtisStack<T> {
     *
     * @param input from Main.java
     */
-    public void push(T input) {
+    public void push(Object input) {
         stackAsList.add(input);
     }
 
@@ -57,8 +57,8 @@ public class CurtisStack<T> {
      *
      * @return the popped string
      */
-    public T popItem() {
-        T poppedItem;
+    public Object popItem() {
+        Object poppedItem;
         if (!stackAsList.isEmpty()) {
             poppedItem = stackAsList.remove(stackAsList.size() - 1);
         } else {
