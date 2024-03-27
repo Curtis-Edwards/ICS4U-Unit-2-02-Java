@@ -62,7 +62,7 @@ public class CurtisStack<T> {
         if (!stackAsList.isEmpty()) {
             poppedItem = stackAsList.remove(stackAsList.size() - 1);
         } else {
-            poppedItem = null; // or throw an exception or return a special value indicating empty stack
+            poppedItem = null;
         }
         return poppedItem;
     }
