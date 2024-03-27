@@ -56,7 +56,6 @@ final class Main {
         System.out.println("popped: " + shapes.popItem());
         System.out.println("popped: " + shapes.popItem());
         System.out.println("shapes: " + shapes.showStack());
-        System.out.println("");
 
         System.out.println("\nDone.");
     }
