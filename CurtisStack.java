@@ -16,14 +16,7 @@ public class CurtisStack {
     /**
     * Declares a private instance variable.
     */
-    private List<String> stackAsList;
-
-    /**
-    * The constructor().
-    */
-    public CurtisStack() {
-        stackAsList = new ArrayList<>();
-    }
+    private List<String> stackAsList = new ArrayList<>();
 
     /**
     * The push() method.
